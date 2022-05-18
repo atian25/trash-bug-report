@@ -1,0 +1,15 @@
+logs/
+npm-debug.log
+node_modules/
+coverage/
+.idea/
+run/
+.DS_Store
+*.swp
+*-lock.json
+*-lock.yaml
+.vscode/history
+.tmp
+.vscode
+.tempCodeRunnerFile.js
+/snippet/

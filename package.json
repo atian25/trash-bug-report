@@ -1,0 +1,27 @@
+{
+  "name": "trash-bug-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atian25/trash-bug-report.git"
+  },
+  "dependencies": {
+    "trash": "^8.1.0"
+  },
+  "jest": {
+    "preset": "common-jest-preset",
+    "transform": {},
+    "testTimeout": 5000
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^28.1.0",
+    "common-jest-preset": "^1.0.0"
+  }
+}
